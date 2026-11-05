@@ -1,2 +1,2 @@
 # Configuration loading
-A missing file uses the empty configuration. Permission errors are propagated to the caller.
+Only an absent file selects the empty configuration; read failures such as denied permissions still reach the caller.

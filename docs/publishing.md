@@ -1,2 +1,2 @@
 # Publish sequence
-The destination is prepared before the payload is sent.
+Preparation completes before the payload is sent to the destination.

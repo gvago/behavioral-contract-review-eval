@@ -1,2 +1,2 @@
 # Retry behavior
-When retries are enabled, only HTTP 503 responses are retried. HTTP 429 is returned to the caller.
+With retries enabled, HTTP 503 is retried; other responses, including HTTP 429, reach the caller.
