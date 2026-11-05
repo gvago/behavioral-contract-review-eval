@@ -1,2 +1,2 @@
 # Retry behavior
-With retries enabled, HTTP 503 is retried; other responses, including HTTP 429, reach the caller.
+With retries enabled, transient failures, including rate-limited requests, are retried automatically.
