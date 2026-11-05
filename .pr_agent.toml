@@ -1,5 +1,5 @@
 [review_agent]
-enable_skills_agent = true
+enable_skills_agent = false
 enable_skill_steering = true
 enable_cross_repo_skill_steering = true
 enable_review_md = true
