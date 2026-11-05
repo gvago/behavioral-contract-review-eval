@@ -1,4 +1,4 @@
-DEFAULT_TTL = 60
+DEFAULT_TTL = 300
 
 
 def should_retry(status, enabled):
